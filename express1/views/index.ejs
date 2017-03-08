@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Express1</title>
+</head>
+
+<body>
+      <h1><%= title %></h1>
+
+    <ul>
+        <% for(var i = 0; i < items.length; i++) {  %>
+            <li><%= items[i].desc %></li>
+        <%= } %>
+    </ul>
+
+    <form action="/add">
+        <input type="text">
+        </form>
+</body>
+
+</html>
